@@ -14,12 +14,12 @@ namespace GitExercise
             Console.WriteLine("Asigne un valor a la variable B");
             b = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine($"La operacion  de {a} + {b} es: {AddNumber(a,b)}") ;
+            Console.WriteLine($"La operacion  de {a} - {b} es: {AddNumbers(a,b)}") ;
         }
 
-        public static int AddNumber(int a, int b)
+        public static int AddNumbers(int a, int b)
         {
-            return a+b;
+            return a - b;
         }
     }
 }
