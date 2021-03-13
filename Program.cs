@@ -14,7 +14,7 @@ namespace GitExercise
             Console.WriteLine("Asigne un valor a la variable B");
             b = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine($"La operacion  de {a} + {b} es: {AddNumber(a,b)}");
+            Console.WriteLine($"La operacion  de {a} + {b} es: {AddNumber(a,b)}") ;
         }
 
         public static int AddNumber(int a, int b)
